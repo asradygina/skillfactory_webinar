@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Nunito Sans-Semibold', sans-serif;
-    src: url(fonts/NunitoSans-SemiBold.ttf);
+    src: url(./fonts/NunitoSans-SemiBold.ttf);
 }
 
 @font-face {
     font-family: 'Open Sans-Regular', sans-serif;
-    src: url(fonts/OpenSans-Regular.ttf);
+    src: url(./fonts/OpenSans-Regular.ttf);
 }
 
 * {
@@ -202,7 +202,7 @@ body {
     gap: 0 20px;
 }
 .features__box-first {
-    background-image: url('image/features-left.jpg');
+    background-image: url('./image/features-left.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-color: #16133D;
@@ -216,7 +216,7 @@ body {
     line-height: 48px;
 }
 .features__box-second {
-    background-image: url('image/features-right.jpg');
+    background-image: url('./image/features-right.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-color: #16133D;
@@ -307,7 +307,7 @@ border-radius: 0px 0px 8px 8px;
     color: #F04D5D;
 }
 .advertising {
-    background-image: url('image/background_adv.jpg');
+    background-image: url('./image/background_adv.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
